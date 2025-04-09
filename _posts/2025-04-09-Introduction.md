@@ -1,6 +1,6 @@
 ## Introduction
 
-Hello!
+### Hello!
 
 My name is Sam, AKA Blooper7
 
