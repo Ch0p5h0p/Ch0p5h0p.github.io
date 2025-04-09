@@ -12,7 +12,7 @@ My name is Sam, AKA Blooper7
 
 As of today, I'm a senior in high school, planning to go to college soon. In the future, I want to get a job in embedded systems engineering.
 
-I don't really have much to say in terms of engineering, so I'll just leave one of the stupidest pieces of code my classmates and I ever wrote in my Python Programming II course:
+I don't really have much to say, so I'll just leave one of the stupidest pieces of code my classmates and I ever wrote in my Python Programming II course:
 
 ```python
 for wep in weapons.Weapon_list:
