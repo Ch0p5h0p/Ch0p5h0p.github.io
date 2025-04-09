@@ -14,7 +14,7 @@ As of today, I'm a senior in high school, planning to go to college soon. In the
 
 I don't really have much to say, so I'll just leave one of the stupidest pieces of code my classmates and I ever wrote in my Python Programming II course:
 
-```python
+``` python
 for wep in weapons.Weapon_list:
     if type(weapon)==weapons.Weapon.TYPES.WEAPON:
         player.weapon.weapon_atk=weapons.Weapon.weapon_base_atk
