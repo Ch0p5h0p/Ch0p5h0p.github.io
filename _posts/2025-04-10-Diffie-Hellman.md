@@ -17,7 +17,7 @@ ___
 Before you can do anything, you and Bob have to agree on a large prime number. Currently, a 2048 prime number is considered secure, so with a little bit of math, we can find out that a 2048 bit prime number would be a whopping **617 digits!** Yeah, have fun picking one of those. But just so you're sure you've really picked a prime number, here's a nice way to tell:
 
 #### Euler's Totient
-*As all the math nerds will tell you: No, This guy's name isn't pronounced "yoo-ler". It's pronounced "oiler".*
+> *As all the math nerds will tell you: No, This guy's name isn't pronounced "yoo-ler". It's pronounced "oiler".*
 
 Euler created a wonderful function called Euler's Totient function, or more simply known as the phi function. I didn't exactly know what this function represented for the longest time until a friend made a pretty helpful simplification: Euler's Totient represents the *breakability* of a number. 
 
@@ -56,7 +56,7 @@ isn't divisible by any of the numbers that come before it.
 ___
 
 ### Step 2: The generator
-*Finally, that wacko shut up about prime numbers...*
+> *Finally, that wacko shut up about prime numbers...*
 
 Oh, you thought we were done with prime numbers? HA! It gets worse from here!
 
@@ -72,7 +72,7 @@ Here's the easy part. Pick a number, any number. Cool, now that's your private k
 ___
 
 ### Step 4: Public keys
-*Who likes modular arithmetic? Not you? Too bad!*
+Who likes modular arithmetic? Not you? Too bad!
 
 To calculate your public key, you can use a pretty simple formula, where a is your private key, g is your agreed upon generator number, and p is your agreed upon large prime number
 
@@ -89,7 +89,7 @@ Cool! You and Bob have both of your private and public keys! The best part? You 
 ___
 
 ### Step 5: Shared secret
-*Dude, Diffie-Hellman is all about modular arithmetic. You didn't think we were done, did you?*
+Dude, Diffie-Hellman is all about modular arithmetic. You didn't think we were done, did you?
 
 Finally, it's time to calculate the shared secret key. So, after waiting for an hour because Bob took a lunch break before calculating his keys, you now have his public key. After telling him that yes, hamburgers are *indubitably* better than hot dogs and anyone who says otherwise is simply incorrect, it's finally time to calculate your shared secret. This can be done about as simply as we calculated your public keys before.
 
