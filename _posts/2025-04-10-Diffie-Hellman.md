@@ -8,7 +8,6 @@ description: "Explaination of the Diffie-Hellman key exchange algorithm"
 
 *Funny announcer voice: In FIVE EASY STEPS, you too can create the Diffie-Hellman key exchange!!!*
 
-### Some history
 Imagine you and your friend Bob are trying to exchange secret codes or keys to a cipher. Before Diffie Hellman and RSA, there weren't very many good ways to do that. On the internet, everything is accessible from everywhere. That's why Ralph Merkle made the Diffie-Hellman key exchange algorithm (No, it wasn't actually made by Whitfield Diffie and Martin Hellman, just named after them)
 
 ___
