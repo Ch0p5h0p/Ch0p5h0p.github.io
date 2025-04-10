@@ -108,3 +108,5 @@ ___
 
 ### Final words
 Okay, that's it. Go use your powers for good :D
+
+If you're curious about how to find the generator,do some research. The process is actually rather interesting, even though code that's written for it can tend to be slow.
