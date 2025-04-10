@@ -1,3 +1,9 @@
+---
+layout: post
+title: "How does Diffie-Hellman work?"
+tags: Security
+description: "Explaination of the Diffie-Hellman key exchange algorithm"
+---
 ## How does Diffie-Hellman work?
 
 *Funny announcer voice: In FIVE EASY STEPS, you too can create the Diffie-Hellman key exchange!!!*
