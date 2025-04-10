@@ -11,8 +11,7 @@ description: "Explaination of the Diffie-Hellman key exchange algorithm"
 ### A short bit of history
 Imagine you and your friend Bob are trying to exchange secret codes or keys to a cipher. Before Diffie Hellman and RSA, there weren't very many good ways to do that. On the internet, everything is accessible from everywhere. That's why Ralph Merkle made the Diffie-Hellman key exchange algorithm (No, it wasn't actually made by Whitfield Diffie and Martin Hellman, just named after them)
 
-### Setup
-I'm better at writing algorithms in Python, so I'll be using that for this.
+___
 
 ### Step 1: The large prime number
 Before you can do anything, you and Bob have to agree on a large prime number. Currently, a 2048 prime number is considered secure, so with a little bit of math, we can find out that a 2048 bit prime number would be a whopping **617 digits!** Yeah, have fun picking one of those. But just so you're sure you've really picked a prime number, here's a nice way to tell:
