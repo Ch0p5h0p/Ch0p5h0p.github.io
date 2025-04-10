@@ -31,7 +31,7 @@ Here's a simple implementation of Euler's Totient in Python:
 import math
 
 def phi(n):
-  count = 0r 
+  count = 0
   for i in range(1, n):
     if math.gcd(i, n) == 1:
       count+=1
