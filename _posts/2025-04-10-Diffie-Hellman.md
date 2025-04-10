@@ -37,7 +37,8 @@ def phi(n):
   return count
 ```
 Oh, and if you're like me and somehow find it entertaining to do things with as few libraries as possible, we can eliminate the math library with our own implementation of the GCD function:
-```
+
+```python
 def gcd(a, b):
   if (a==0):
     return b
