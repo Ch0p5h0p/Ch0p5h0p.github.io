@@ -98,7 +98,7 @@ Let's set up our equation. We need to find the shared secret K, and we have Bob'
 
 K = B^a mod p
 
-Python: ```sharedSecret = (BobPublicKey**privateKey) % p
+Python: ```sharedSecret = (BobPublicKey**privateKey) % p```
 
 Bob does something similar using your public key A and his private key b:
 
