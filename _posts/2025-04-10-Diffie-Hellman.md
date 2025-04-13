@@ -13,7 +13,7 @@ Imagine you and your friend Bob are trying to exchange secret codes or keys to a
 ___
 
 ### Step 1: The large prime number
-Before you can do anything, you and Bob have to agree on a large prime number. Currently, a 2048 prime number is considered secure, so with a little bit of math, we can find out that a 2048 bit prime number would be a whopping **617 digits!** Yeah, have fun picking one of those. But just so you're sure you've really picked a prime number, here's a nice way to tell:
+Before you can do anything, you and Bob have to agree on a large prime number. Currently, a 2048 bit prime number is considered secure, so with a little bit of math, we can find out that a 2048 bit prime number would be a whopping **617 digits!** Yeah, have fun picking one of those. But just so you're sure you've really picked a prime number, here's a nice way to tell:
 
 #### Euler's Totient
 > *As all the math nerds will tell you: No, This guy's name isn't pronounced "yoo-ler". It's pronounced "oiler".*
