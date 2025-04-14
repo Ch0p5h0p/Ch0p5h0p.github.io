@@ -78,7 +78,7 @@ To calculate your public key, you can use a pretty simple formula, where a is yo
 
 A = g^a mod p
 
-Or in Python:  `privateKey = (g**a) % p`
+Or in Python:  `publicKey = (g**a) % p`
 
 Bob calculates their public key B using the same g and p values, but with their own randomly chosen private key value b.
 
