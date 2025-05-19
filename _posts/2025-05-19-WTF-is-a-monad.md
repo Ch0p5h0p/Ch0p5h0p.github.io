@@ -1,0 +1,113 @@
+---
+layout: post
+title: "Functional Programming"
+tags: Functional Programming, Programming
+description: "An attempt at explaining FP"
+---
+## Functional Programming
+
+You thought programming stopped with object-oriented and imperative? Hahaha, no. Meet my friend: functional programming
+
+### What the heck is functional programming?
+
+Functional programming is programming that's built on functions. Yeah, it's literally that simple.
+
+Okay, okay, fine. I'll explain it a bit more. Every programming paradigm has its own roots. For object-oriented, it's classes and objects. For imperative (AKA Procedural), you have your procedures. For functional programming, you have functions. That's not to say every language doesn't borrow from other paradigms. For instance, C is a mainly imperative language, but structs can be used to mimic classes. Where functional programming differs mainly from these is in the use of pure functions and the management of state.
+
+### Pure functions?
+
+Yep, pure functions.
+
+A pure function is a function that returns the same output for identical inputs and has no side effects. This means that a function should have an output that's directly linked to the input with no side effects whatsoever. For instance, take this python code:
+
+```python
+def square(x):
+  return x*x
+```
+
+The function above is pure. This is immediately violated if we insert a print statement like so:
+
+```python
+def square(x):
+  print("Hi! Your function isn't pure anymore because of me :P")
+  return x*x
+```
+
+The print statement output counts as a side effect, and this function loses its purity so badly that even OxiClean won't get those tough stains out.
+
+### Wait... so I can't print things in functional programming?
+
+If only it were that simple...
+
+In functional programming, we have things called monads. (functional programming veterans, try not to scream.) In simple terms, a monad is a structure for chaining functions where the next function only runs if the previous one succeeds, and "success" is defined by the monad.
+
+> An important note is that there are probably *hundreds* of definitions for monads online. This is just the definition that happens to make sense in my mind. If this doesn't, I encourage you to find one that does. Monads are actually very interesting topics.
+
+A nicer way to think about it is like this:
+```python
+function1(function2(function3(function4(42))))
+```
+Except each function adheres to rules set by the thing that handles the chain that dictate whether the function breaks the chain where it is or passes its result to the next one in the chain.
+
+Back to printing:
+
+Languages like Haskell have specific monads for handling print statements. For Haskell specifically, you use the `IO()` monad in your entry point. That looks something like this:
+```haskell
+main :: IO()
+main = do
+  print "Hello, World!"
+```
+This essentially says, "Oh, so printing is a violation of purity? Eh, I'll just pretend it isn't." In more intelligent terms, the monad takes the print statement and turns it into a value with the type `IO ()` that basically describes a print action. This action is then executed by a fun little gadget called the runtime system (RTS) when your program is executed. Haskell keeps your program pure by outsourcing your nasty IO impurities to a monadic wrapper.
+
+### Hold up. You said something about state earlier?
+
+Why, yes I did, dear reader.
+
+Firstly, let's define "state": state is essentially data stored by a program that can manage or change the flow of said program.
+
+Programming paradigms have a plethora of methods to handle state. In object-oriented code, state is managed in the classes. In imperative code, the state is shared globally. In functional programming, the state went on a vacation to The Bahamas and decided to stay for a while.
+
+**There is no mutable state!** Your programs have to remain pure, so mutable variables are gone. You only get to play with constants. But wait, this is functional programming! They're not constants, they're zero-argument functions! No, I'm not joking! Yes, I think it's weird too!
+
+Thinking about this in terms of math, when you do something such as `val=10` in Haskell, you're not doing x=10. You're doing f(x)=10. Essentially, you're just creating a function that says "I don't care what kind of argument you give me, you're getting 10. No negotiating."
+
+So your state can only be managed by the progression of your program. Take a `for` loop for example:
+```python
+for i in range(10):
+  print(i)
+```
+
+In functional programming, this has to be done with recursion and an internally managed state like so:
+```haskell
+countToTen :: Int -> IO ()
+countToTen 10 = return ()
+countToTen n = do
+  print n
+  countToTen (n+1)
+```
+
+Here's some slightly better-looking syntax with pattern matching:
+```haskell
+countToTen :: Int -> IO ()
+countToTen n = case n of
+  10 -> return ()
+  _  -> do
+    print n
+    countToTen (n+1)
+```
+Essentially, you can't have a changing state like in a `for` loop because incrementing a value is impossible due to immutability. Because of this, you have to use recursion with an internally managed state to simulate state progression.
+
+### Jeez, this sounds horrible. What languages do I have to avoid like the plague?
+
+I'm so glad you asked.
+
+We've talked plenty about Haskell already, so I'll give you some other ones:
+- Scala
+- OCaml
+- Elm
+- F#
+- Roc
+*By the way, if you check out Roc at [roc-lang.org](https://roc-lang.org), they give you a REPL that shows you the basics on how to use it.*
+
+### Real talk
+I know we've been treating functional programming like a lab specimen, but it's actually a good paradigm to know. It introduces you to a new way of thinking and a new way of approaching problems that can be very helpful. If you have time, try learning functional programming. It's worth it.
