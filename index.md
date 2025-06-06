@@ -4,4 +4,4 @@ I like programming, music, grilled cheese sandwiches, newspaper comics, and old 
 
 I'll probably be writing a lot about programming concepts as well as music concepts.
 
-Here's my favorite project so far: [Cyclone Hash Algorithm](https://blooper7.github.io/Cyclone-Hash)
+[Homepage](blooper7.github.io)
