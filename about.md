@@ -13,6 +13,3 @@ I'm a developer that enjoys cryptography and loves low-level system programming
 - [Cyclone Hash Algorithm](https://blooper7.github.io/Cyclone-Hash)
 - [Basic Kernel](https://github.com/Blooper7/Kernel-Base)
 - [Simple Shell](https://github.com/Blooper7/Shell)
-
-### Other Stuff
-[My Blog](blooper7.github.io/blog)
