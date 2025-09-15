@@ -1,10 +1,9 @@
- ---
+---
 layout: post
 title: "Pi as a PRNG?"
 tags: Cryptography
 description: "An experiment with using pi as a PRNG"
 ---
-## Pi as a PRNG?
 
 I've been curious about something for a while: pi is irrational, right? That means no repeating digit sequences. That being said, could it be used as a PRNG of sorts? Well, we're about to find out!
 
