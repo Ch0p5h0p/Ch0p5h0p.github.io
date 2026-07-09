@@ -2,7 +2,7 @@
 layout: home
 permalink: /
 permalink_name: /home
-title: Ch0p5h0p | Home
+title: Home
 
 detail_image: assets/logo.png
 
