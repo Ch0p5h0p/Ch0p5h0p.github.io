@@ -16,8 +16,8 @@ sass:
 highlighter: rouge
 
 header_pages:
-  - index.md
-  - portfolio.md
+  - pages/index.md
+  - pages/portfolio.md
 
 # set the size of the text to 'large' or 'small', default is small
 font-size: small
