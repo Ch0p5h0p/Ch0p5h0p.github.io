@@ -24,7 +24,7 @@ I'm also a big open source, privacy, and ownership advocate.
 - OCaml
 
 ## Programming Language Experience:
-<div style="display: flex; gap: 40px; margin-top: 10px;">
+<div style="display: flex; gap: 8em; margin-top: 10px;">
 <div style="flex: 1; white-space: pre-wrap; text-align: right"><b>C</b>      : 5 years
 <b>C++</b>    : 5 years
 <b>Java</b>   : 3 years
