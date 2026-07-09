@@ -13,4 +13,10 @@ title: Test Page
 | Java | r | 
 {:.invisible-table}
 
+
+|---|---|
+| C++ | 1 |
+| C | 2 |
+| Java | r | 
+
 test
