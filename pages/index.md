@@ -12,7 +12,7 @@ detail_image: assets/logo.png
 
 I'm a computer programming enthusiast residing in the USA.
 
-I taught myself how to code at age 12, starting with Python. As I became older, I started learning more languages and creating more projects. Now, I write code that is reliable and maintainable for all sorts of random passion projects.
+I taught myself how to code at age 12, starting with Python. As I became older, I started learning more languages and creating more projects. Now, I write code that's reliable and maintainable for all sorts of random passion projects.
 
 I'm also a big open source, privacy, and ownership advocate.
 
