@@ -25,16 +25,14 @@ I'm also a big open source, privacy, and ownership advocate.
 
 ## Programming Language Experience:
 <div style="display: flex; gap: 40px; margin-top: 10px;">
-<div style="flex: 1; white-space: pre-wrap; text-align: center">
-<b>C</b>      : 5 years
+<div style="flex: 1; white-space: pre-wrap; text-align: center"><b>C</b>      : 5 years
 <b>C++</b>    : 5 years
 <b>Java</b>   : 3 years
 <b>Rust</b>   : 1 year 
 <b>OCaml</b>  : 1 year 
 </div>
   
-<div style="flex: 1; white-space: pre-wrap; text-align: center">
-<b>Assembly</b> : 2 years
+<div style="flex: 1; white-space: pre-wrap; text-align: center"><b>Assembly</b> : 2 years
 <b>Python</b>   : 7 years
 <b>Haskell</b>  : 2 years
 <b>Lua</b>      : 3 years
