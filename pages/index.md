@@ -23,7 +23,7 @@ I'm also a big open source, privacy, and ownership advocate.
 - Rust
 - OCaml
 
-## Programming Experience:
+## Programming Experience
 <div style="flex: 1; white-space: pre-wrap; text-align: left"><b>C</b>        [#########.] Proficient     5 years
 <b>C++</b>      [########..] Proficient     5 years
 <b>Java</b>     [########..] Proficient     4 years
