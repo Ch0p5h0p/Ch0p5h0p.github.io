@@ -26,23 +26,27 @@ I'm also a big open source, privacy, and ownership advocate.
 ## Programming Language Experience:
 <div style="display: flex; gap: 40px;">
 <div style="flex: 1; white-space: pre-wrap;">
+<center>
+
+<b>C</b>      : 5 years
+<b>C++</b>    : 5 years
+<b>Java</b>   : 3 years
+<b>Rust</b>   : 1 year
+<b>OCaml</b>  : 1 year
+</center>
+</div>
   
-**C**      : 5 years
-**C++**    : 5 years
-**Java**   : 3 years
-**Rust**   : 1 year
-**OCaml**  : 1 year
-
-</div>
 <div style="flex: 1; white-space: pre-wrap;">
+<center>
+  
+<b>Assembly</b> : 2 years
+<b>Python</b>   : 7 years
+<b>Haskell</b>  : 2 years
+<b>Lua</b>      : 3 years
 
-**Assembly** : 2 years
-**Python**   : 7 years
-**Haskell**  : 2 years
-**Lua**      : 3 years
-
+</center>
 </div>
 </div>
 
-## Things I like to code:
+## Things I Like to Make:
 I love to make things ranging from games to wonky experiments. Currently, I do a lot of Minecraft modding and server plugin stuff, but I've been getting into GBA game dev lately. I also like experimenting with cryptography, doing cybersecurity, and reverse engineering.
