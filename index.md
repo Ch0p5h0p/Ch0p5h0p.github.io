@@ -10,7 +10,7 @@ detail_image: assets/logo.png
 
 # <span style="color: #7287fd">Hi, I'm Sam!</span>
 
-I'm a computer and programming enthusiast residing in the USA.
+I'm a computer programming enthusiast residing in the USA.
 
 I taught myself how to code at age 12, starting with Python. As I became older, I started learning more languages and creating more projects. Now, I write code that is reliable and maintainable for all sorts of random passion projects.
 
@@ -31,8 +31,8 @@ I'm also a big open source, privacy, and ownership advocate.
 <b>C</b>      : 5 years
 <b>C++</b>    : 5 years
 <b>Java</b>   : 3 years
-<b>Rust</b>   : 1 year
-<b>OCaml</b>  : 1 year
+<b>Rust</b>   : 1 year 
+<b>OCaml</b>  : 1 year 
 </center>
 </div>
   
