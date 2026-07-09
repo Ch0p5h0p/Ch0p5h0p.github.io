@@ -39,5 +39,10 @@ I'm also a big open source, privacy, and ownership advocate.
 </div>
 </div>
 
+|---|---|
+| C++ | 1 |
+| C | 2 |
+{:.invisible-table}
+
 ## Things I Like to Make:
 I love to make things ranging from games to wonky experiments. Currently, I do a lot of Minecraft modding and server plugin stuff, but I've been getting into GBA game dev lately. I also like experimenting with cryptography, doing cybersecurity, and reverse engineering.
