@@ -10,6 +10,7 @@ title: Test Page
 |---|---|
 | C++ | 1 |
 | C | 2 |
+| Java | r | 
 {:.invisible-table}
 
 test
