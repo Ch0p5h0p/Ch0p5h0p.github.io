@@ -14,6 +14,7 @@ A Fabric mod that implements varying tech-oriented tools into Minecraft. Also st
 - Grep
 - AWK scripting, with an API to run in-game functions
 - Script editor
+
 Planned features include:
 - GZip compression
 - SHA-256 hashing
