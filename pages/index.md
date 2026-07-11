@@ -24,7 +24,7 @@ I'm also a big open source, privacy, and ownership advocate.
 - OCaml
 
 ## Programming Experience
-<div style="flex: 1; white-space: pre-wrap; text-align: left"><b>C</b>        [#########.] Proficient     5 years
+<div style="flex: 1; white-space: pre-wrap; text-align: left"><b>C</b>        [#########.]   Proficient     5 years
 <b>C++</b>      [########..]   Proficient     5 years
 <b>Java</b>     [########..]   Proficient     4 years
 <b>Python</b>   [#######...]   Proficient     7 years
