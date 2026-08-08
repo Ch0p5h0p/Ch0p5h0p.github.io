@@ -24,14 +24,14 @@ I'm also a big open source, privacy, and ownership advocate.
 - OCaml
 
 ## Programming Experience
-<div style="flex: 1; white-space: pre-wrap; text-align: left"><b>C</b>        [#########.]   Proficient     5 years
-<b>C++</b>      [########..]   Proficient     5 years
-<b>Java</b>     [########..]   Proficient     4 years
-<b>Python</b>   [#######...]   Proficient     7 years
-<b>Assembly</b> [#######...]   Advanced       3 years
-<b>Rust</b>     [#####.....]   Intermediate   1 year
-<b>OCaml</b>    [#####.....]   Intermediate   1 year
-<b>Haskell</b>  [####......]   Intermediate   2 years
+<div style="flex: 1; white-space: pre-wrap; text-align: left"><b>C</b>        [#########.]   Proficient     5 years (August 2021)
+<b>C++</b>      [########..]   Proficient     5 years (August 2021)
+<b>Java</b>     [########..]   Proficient     4 years (August 2022)
+<b>Python</b>   [#######...]   Proficient     7 years (May 2019)
+<b>Assembly</b> [#######...]   Advanced       3 years (January 2023)
+<b>Rust</b>     [#####.....]   Intermediate   1 year  (July 2025)
+<b>OCaml</b>    [#####.....]   Intermediate   1 year  (July 2025)
+<b>Haskell</b>  [####......]   Intermediate   2 years (September 2023)
 </div>
 
 ## Things I Like to Make:
