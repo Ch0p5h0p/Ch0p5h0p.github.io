@@ -17,6 +17,7 @@ highlighter: rouge
 
 header_pages:
   - pages/index.md
+  - pages/setup.md
   - pages/portfolio.md
 
 # set the size of the text to 'large' or 'small', default is small
